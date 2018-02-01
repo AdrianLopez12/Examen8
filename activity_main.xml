@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+ android:background="@drawable/fondo1"
+    android:layout_height="match_parent"
+    tools:context="com.example.xelar.examenquimestraladrianlopez.MainActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="50dp"
+    android:textColor="#ffffff"
+    android:text="BIENVENIDO"
+    android:layout_marginTop="25dp"
+    android:gravity="center_horizontal"
+    android:textStyle="italic"
+    />
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ENTRAR AL JUEGO"
+    android:id="@+id/entrar"
+    android:layout_marginTop="250dp"
+    />
+
+    <Button
+        android:id="@+id/salir"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Salir"
+
+        />
+
+
+</LinearLayout>
